@@ -11,8 +11,22 @@ public class Main {
         System.out.print("a téglalap kerülete:");
         System.out.println(sum);
 
-        //téglalap területe   
+        //téglalap területe
        System.out.print("a téglalap területe:");
-        System.out.print(sum2);
+        System.out.println(sum2);
+   //második feladat, dl átváltása
+        // a dl határoztam meg konstansként és azt szoroztam illetve osztottam
+
+        int deci=26;
+        double liter=deci*0.1;
+        double milliliter=deci*10;
+         System.out.print("26 deci =");
+         System.out.print(liter);
+         System.out.print("Liter");
+         System.out.println("\n");
+         
+
     }
+
 }
+
