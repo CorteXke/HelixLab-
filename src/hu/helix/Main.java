@@ -11,7 +11,7 @@ public class Main {
         System.out.print("a téglalap kerülete:");
         System.out.println(sum);
 
-        //téglalap területe
+        //téglalap területe 
        System.out.print("a téglalap területe:");
         System.out.print(sum2);
     }
