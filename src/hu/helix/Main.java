@@ -14,6 +14,7 @@ public class Main {
         //téglalap területe
        System.out.print("a téglalap területe:");
         System.out.println(sum2);
+        System.out.println("\n");
    //második feladat, dl átváltása
         // a dl határoztam meg konstansként és azt szoroztam illetve osztottam
 
@@ -25,8 +26,17 @@ public class Main {
          System.out.println("26 dl =" +liter + " liter");
          System.out.println("26 dl=" +milliliter +" ml");
          System.out.println("26dl="+hektoliter + " hl");
+         System.out.println("26dl=" +centiliter+ " cl");
          System.out.println("\n");
 
+
+         // 3. feladat, gömb térfogat számitás
+
+        double PI=Math.PI;
+        double r=12;
+        System.out.println("a"+r + "sugarú gömb térfogata= "+4*r*PI);
+
+        //
 
     }
 
