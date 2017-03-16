@@ -19,12 +19,14 @@ public class Main {
 
         int deci=26;
         double liter=deci*0.1;
-        double milliliter=deci*10;
-         System.out.print("26 deci =");
-         System.out.print(liter);
-         System.out.print("Liter");
+        double milliliter=deci*100;
+        double centiliter=deci*10;
+        double hektoliter=deci*0.001;
+         System.out.println("26 dl =" +liter + " liter");
+         System.out.println("26 dl=" +milliliter +" ml");
+         System.out.println("26dl="+hektoliter + " hl");
          System.out.println("\n");
-         
+
 
     }
 
