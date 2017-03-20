@@ -35,8 +35,23 @@ public class Main {
         double PI=Math.PI;
         double r=12;
         System.out.println("a"+r + "sugarú gömb térfogata= "+4*r*PI);
+        System.out.println("\n");
 
-        //
+        //Fahrenheit Celsius váltás
+
+        int cels = (55- 32) * 5 / 9;
+        int fah= 9 * (41/ 5) + 32;
+
+        System.out.println("55 Fahrenheit = "+cels +" celsius");
+        System.out.println("41 celsius=" +fah +" fahrenheit");
+
+
+
+
+
+
+
+
 
     }
 
