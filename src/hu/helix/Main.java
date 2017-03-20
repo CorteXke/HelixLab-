@@ -37,7 +37,7 @@ public class Main {
         System.out.println("a"+r + "sugarú gömb térfogata= "+4*r*PI);
         System.out.println("\n");
 
-        //Fahrenheit Celsius váltás
+        //4. feladat Fahrenheit Celsius váltás
 
         int cels = (55- 32) * 5 / 9;
         int fah= 9 * (41/ 5) + 32;
@@ -45,6 +45,26 @@ public class Main {
         System.out.println("55 Fahrenheit = "+cels +" celsius");
         System.out.println("41 celsius=" +fah +" fahrenheit");
         System.out.println("\n");
+
+
+        /*5. feladat Írasd ki a következő kimenetet egyetlen System.out.println(); metódus hívás segítségével.
+
+        Tipp: escape sequences
+
+        Output
+
+                ************
+* Hello 	*
+* World	*
+* in    		*
+* a     	*
+* frame 	*
+************
+* */
+         System.out.println(" ********* \n * Hello * \n * World * \n * in    * \n * a     * \n * frame * \n *********");
+
+         
+
 
 
 
