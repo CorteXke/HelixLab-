@@ -61,10 +61,15 @@ public class Main {
 * frame 	*
 ************
 * */
-         System.out.println(" ********* \n * Hello * \n * World * \n * in    * \n * a     * \n * frame * \n *********");
+         System.out.println(" ********* \n * Hello * \n * World * \n * in    * \n * a     * \n * frame * \n ********* \n");
 
-         
 
+
+         //6. faladat ASCII kód kiiratása
+
+        char character= 'ä';
+        int ascii= (int) character;
+        System.out.println("a ä karakter ASCII kódja: "+ascii);
 
 
 
