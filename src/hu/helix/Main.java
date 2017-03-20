@@ -44,6 +44,7 @@ public class Main {
 
         System.out.println("55 Fahrenheit = "+cels +" celsius");
         System.out.println("41 celsius=" +fah +" fahrenheit");
+        System.out.println("\n");
 
 
 
