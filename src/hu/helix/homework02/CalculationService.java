@@ -15,7 +15,24 @@ public class CalculationService {
 
         public static void calculate(int x , int y, char operation){
 
+            int result=0;
+            switch(operation){
+                case '+':
+                     result=x+y;
+                    break;
+                case '/':
+                     result=x/y;
+                    break;
+                case '*':
+                    result=x*y;
+                    break;
+                case '-':
+                    result=x-y;
+                    break;
 
+
+            }
+        System.out.println("eredmény: " +result);
 
 
 
