@@ -24,8 +24,8 @@ public class Main {
         System.out.println("\n");
    //második feladat, dl átváltása
         // a dl határoztam meg konstansként és azt szoroztam illetve osztottam
-*/
-        //2. feladat dl átváltás
+
+      /*  //2. feladat dl átváltás
         int deci=26;
         double hektoliter = (double) Math.round((deci * 0.001) * 1000000) / 1000000;
         double liter= (double) Math.round((deci*0.1)* 1000000) / 1000000;
@@ -34,16 +34,14 @@ public class Main {
         System.out.println("26dl= " +hektoliter + " hl") ;
         System.out.println("26dl= " + liter + " l");
         System.out.println("26dl= " +mililiter + " ml") ;
-        System.out.println("26dl= " +centiliter + " cl") ;
+        System.out.println("26dl= " +centiliter + " cl") ;*/
 
-/*
+
          // 3. feladat, gömb térfogat számitás
 
-        double PI=Math.PI;
-        double r=12;
-        System.out.println("a"+r + "sugarú gömb térfogata= "+4 * r^3 * PI /3);
-        System.out.println("\n");
-
+         double r=12;
+         System.out.println("a "+r + " sugarú gömb térfogata= "+4 * r*r*r * Math.PI /3);
+       /*
         //4. feladat Fahrenheit Celsius váltás
 
         int cels = (55- 32) * 5 / 9;
