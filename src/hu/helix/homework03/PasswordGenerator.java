@@ -6,7 +6,7 @@ import java.util.Random;
  * Created by Dániel on 2017. 04. 01..
  */
 
-/*Sajnos a szájbarágós segitséged után is csak ennyire voltam képes*/
+/*Sajnos a szájbarágós segitséged után is csak ennyire voltam képes */
 
 public class PasswordGenerator {
 
